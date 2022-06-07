@@ -2,7 +2,7 @@
 Scripts to analyse splice junctions. Based on the work by Osterreich et al. (2016)
 This paper explores the question of how much coding potential is gained by alternative splicing (AS), and until what extend does AS affect the expansion for the genome.
 It uses a splice site centric approach and Shannon entropy to analyse how different transcriptomes use different splice forms for its splice junctions.
-As in the following diagram, a splice junction would be <i>pi<i> , a splice form would be <i>p1<i> , and the AS probability, <i>pj<i>:
+As in the following diagram, a splice junction would be <em>pi<em> , a splice form would be <em>p1<em> , and the AS probability, <em>pj<em>:
 
 <img src="splicejunction1.jpg">
 
@@ -13,7 +13,7 @@ It is recommended to use paired-end reads, with sequences that are 100bp or long
 
 ## Workflow
 ### Regtools
-To carry out this analysis, we will use the output produced by Regtools (https://regtools.readthedocs.io/en/latest/). We will use its functions <i>junctions extract</i>  and <i>junctions annotate</i> to obtain the splice junctions from the BAM files of our samples of interest.
+To carry out this analysis, we will use the output produced by Regtools (https://regtools.readthedocs.io/en/latest/). We will use its functions <em>junctions extract</i>  and <i>junctions annotate</i> to obtain the splice junctions from the BAM files of our samples of interest.
 The output of the last function is a table that includes all splice forms including:
 - Chromosome position
 - Number of reads supporting the splice form
