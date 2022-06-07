@@ -6,6 +6,7 @@ As in the following diagram, a splice junction would be <em>pi</em> , a splice f
 
 <img src="splicejunction1.jpg">
 ![alt text](https://github.com/klari12/SpliceJunctionAnalysis/blob/main/splicejunction1.jpg?raw=true)
+
 ## Samples
 To run Regtools, the program that will identify the splice junctions, we need BAM files as an input.
 In this case BAM files from samples belonging to the ENCONDE project (https://www.encodeproject.org/) were used.
