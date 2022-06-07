@@ -10,7 +10,7 @@ As in the following diagram, a splice junction would be <em>pi</em> , a splice f
 To run Regtools, the program that will identify the splice junctions, we need BAM files as an input.
 In this case BAM files from samples belonging to the ENCONDE project (https://www.encodeproject.org/) were used.
 It is recommended to use paired-end reads, with sequences that are at least 100bp or longer to be able to detect as many splice junctions (new and annotated) as possible (Chhangawala, Rudy, Mason and Rosenfeld, 2015).
-The ENCODE project used as an example here is a K562 cell line sample (https://www.encodeproject.org/experiments/ENCSR071ZMO/) and a particular BAM files for one of the replicates (https://www.encodeproject.org/files/ENCFF201FDK/)
+The ENCODE project used as an example here is a K562 cell line sample (https://www.encodeproject.org/experiments/ENCSR071ZMO/) and a particular BAM file of one of the replicates (https://www.encodeproject.org/files/ENCFF201FDK/)
 
 ## Workflow
 ### Regtools
