@@ -4,9 +4,8 @@ This paper explores the question of how much coding potential is gained by alter
 It uses a splice site centric approach and Shannon entropy to analyse how different transcriptomes use different splice forms for its splice junctions.
 As in the following diagram, a splice junction would be <em>pi</em> , a splice form would be <em>p1</em> , and the AS probability, <em>pj</em>:
 
-<img src="splicejunction1.jpg">
-![aalt](https://github.com/klari12/SpliceJunctionsAnalysis/blob/main/splicejunction1.png)
 <img src="https://github.com/klari12/SpliceJunctionsAnalysis/blob/main/splicejunction1.png">
+
 ## Samples
 To run Regtools, the program that will identify the splice junctions, we need BAM files as an input.
 In this case BAM files from samples belonging to the ENCONDE project (https://www.encodeproject.org/) were used.
