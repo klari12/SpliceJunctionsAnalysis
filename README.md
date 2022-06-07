@@ -1,5 +1,5 @@
 # SpliceJunctionsAnalysis
-Scripts to analyze splice junctions. Based on the work by <a href="https://www.biorxiv.org/content/10.1101/048124v1">Osterreich el al. (2016)</a> .
+Scripts to analyze splice junctions. Based on the work by <a href="https://www.biorxiv.org/content/10.1101/048124v1" target="_blank" >Osterreich el al. (2016)</a> .
 This paper explores the question of how much coding potential is gained by alternative splicing (AS), and until what extent does AS affect the expansion for the genome.
 It uses a splice site centric approach and Shannon entropy to analyze how different transcriptomes use different splice forms for its splice junctions.
 As in the following diagram, a splice junction would be <em>pi</em> , a splice form would be <em>p1</em> , and the AS probability, <em>pj</em>:
