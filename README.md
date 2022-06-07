@@ -1,7 +1,7 @@
 # SpliceJunctionsAnalysis
-Scripts to analyse splice junctions. Based on the work by Osterreich et al. (2016)
-This paper explores the question of how much coding potential is gained by alternative splicing (AS), and until what extend does AS affect the expansion for the genome.
-It uses a splice site centric approach and Shannon entropy to analyse how different transcriptomes use different splice forms for its splice junctions.
+Scripts to analyze splice junctions. Based on the work by Osterreich et al. (2016).
+This paper explores the question of how much coding potential is gained by alternative splicing (AS), and until what extent does AS affect the expansion for the genome.
+It uses a splice site centric approach and Shannon entropy to analyze how different transcriptomes use different splice forms for its splice junctions.
 As in the following diagram, a splice junction would be <em>pi</em> , a splice form would be <em>p1</em> , and the AS probability, <em>pj</em>:
 
 <img src="https://github.com/klari12/SpliceJunctionsAnalysis/blob/main/splicejunction1.png">
@@ -9,7 +9,8 @@ As in the following diagram, a splice junction would be <em>pi</em> , a splice f
 ## Samples
 To run Regtools, the program that will identify the splice junctions, we need BAM files as an input.
 In this case BAM files from samples belonging to the ENCONDE project (https://www.encodeproject.org/) were used.
-It is recommended to use paired-end reads, with sequences that are 100bp or longer to be able to detect as many splice junctions (new and annotated) as possible (Chhangawala, Rudy, Mason and Rosenfeld, 2015).
+It is recommended to use paired-end reads, with sequences that are at least 100bp or longer to be able to detect as many splice junctions (new and annotated) as possible (Chhangawala, Rudy, Mason and Rosenfeld, 2015).
+The ENCODE project used as an example here is a K562 cell line sample (https://www.encodeproject.org/experiments/ENCSR071ZMO/) and a particular BAM files for one of the replicates (https://www.encodeproject.org/files/ENCFF201FDK/)
 
 ## Workflow
 ### Regtools
