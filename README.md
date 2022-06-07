@@ -26,11 +26,14 @@ The python script included in this project can be used to analyze the file that 
 - Obtain the number of splice forms present in each splice junction
 - Obtain Shannon entropy values of all splice junctions
 - Obtain the alternative splicing probability for every splice junction.
+
 It will create four output files including:
+
 - Number of splice forms for each splice junctions
 - Normalized Shannon entropy values for each splice junction 
 - Not-normalized Shannon entropy values
 - Alternative splicing probabilities for each splice junction
+- 
 ### R script
 The R script attached will allow us to:
 1) Create the csv that is necessary to analyze the Regtools output file with Python (pandas)
