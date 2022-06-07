@@ -5,7 +5,7 @@ It uses a splice site centric approach and Shannon entropy to analyse how differ
 As in the following diagram, a splice junction would be <em>pi</em> , a splice form would be <em>p1</em> , and the AS probability, <em>pj</em>:
 
 <img src="splicejunction1.jpg">
-![aalt](https://github.com/klari12/SpliceJunctionsAnalysis/blob/main/splicejunction1.png?raw=true)
+![aalt](https://github.com/klari12/SpliceJunctionsAnalysis/blob/main/splicejunction1.png)
 
 ## Samples
 To run Regtools, the program that will identify the splice junctions, we need BAM files as an input.
