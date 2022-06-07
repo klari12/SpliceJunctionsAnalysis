@@ -2,7 +2,7 @@
 Scripts to analyse splice junctions. Based on the work by Osterreich et al. (2016)
 This paper explores the question of how much coding potential is gained by alternative splicing (AS), and until what extend does AS affect the expansion for the genome.
 It uses a splice site centric approach and Shannon entropy to analyse how different transcriptomes use different splice forms for its splice junctions.
-As in the following diagram, a splice junction would be <em>pi<em> , a splice form would be <em>p1<em> , and the AS probability, <em>pj<em>:
+As in the following diagram, a splice junction would be <em>pi</em> , a splice form would be <em>p1</em> , and the AS probability, <em>pj</em>:
 
 <img src="splicejunction1.jpg">
 
